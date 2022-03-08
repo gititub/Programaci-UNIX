@@ -1,0 +1,10 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,COMMENT1,COMMENT2,VALUES,,,,
+SUBJID,"Subject ID, GTEx Public Donor ID",,string,,"Subject ID, GTEx Public Donor ID",,,,,,
+AGE,Age,Demography,integer,Years,Age,"Elapsed time since birth in years.",,,,,
+SEX,Sex,Demography,"integer, encoded value",,Sex,"The Donor's Identification of sex based upon self-report, family/next of kin, or medical record abstraction.",1=Male,2=Female,,,
+DTHHRDY,"Hardy Scale","Death Circumstances","integer, encoded value",,"Death Classification: 4-point Hardy Scale","Death classification based on the 4-point Hardy Scale:
+1) Violent and fast death Deaths due to accident, blunt force trauma or suicide, terminal phase estimated at < 10 min. 
+2) Fast death of natural causes Sudden unexpected deaths of people who had been reasonably healthy, after a terminal phase estimated at < 1 hr (with sudden death from a myocardial infarction as a model cause of death for this category) 
+3) Intermediate death Death after a terminal phase of 1 to 24 hrs (not classifiable as 2 or 4); patients who were ill but death was unexpected 
+4) Slow death Death after a long illness, with a terminal phase longer than 1 day (commonly cancer or chronic pulmonary disease); deaths that are not unexpected 
+0) Ventilator Case All cases on a ventilator immediately before death.","0=Ventilator Case","1=Violent and fast death","2=Fast death of natural causes","3=Intermediate death","4=Slow death"
